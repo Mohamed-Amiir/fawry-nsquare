@@ -1,10 +1,10 @@
 package models;
 
-public class factory {
-    public car createCar(engine engine) {
-        return new car(engine);
+public class Factory {
+    public Car createCar(Engine engine) {
+        return new Car(engine);
     }
-    public void replaceEngine(car car, engine newEngine) {
+    public void replaceEngine(Car car, Engine newEngine) {
         car.setEngine(newEngine);        
     }
 }

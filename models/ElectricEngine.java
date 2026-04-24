@@ -1,6 +1,6 @@
 package models;
 
-public class electricEngin implements engine {
+public class ElectricEngine implements Engine {
     private int speed;
 
     @Override

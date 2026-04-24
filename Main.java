@@ -1,9 +1,9 @@
-import models.car;
-import models.electricEngin;
-import models.engine;
-import models.factory;
-import models.gasEngine;
-import models.hyperdEngin;
+import models.Car;
+import models.ElectricEngine;
+import models.Engine;
+import models.Factory;
+import models.GasEngine;
+import models.HyperdEngine;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,14 +14,14 @@ public class Main {
 
         System.out.println("Hello, World!");
         
-        gasEngine ge = new gasEngine();
-        electricEngin ee = new electricEngin();
-        hyperdEngin he = new hyperdEngin(ge, ee);
+        GasEngine ge = new GasEngine();
+        ElectricEngine ee = new ElectricEngine();
+        HyperdEngine he = new HyperdEngine(ge, ee);
 
-        factory carFactory = new factory();
+        Factory carFactory = new Factory();
 
 
-        car myCar = carFactory.createCar(ge);
+        Car myCar = carFactory.createCar(ge);
         myCar.start();
         System.out.println("HERE WE GO.....");
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
@@ -44,51 +44,51 @@ public class Main {
         carFactory.replaceEngine(myCar, he);
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Accelerating...");
         myCar.accelerate();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Accelerating...");
         myCar.accelerate();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());   
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Accelerating...");
         myCar.accelerate();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());   
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Accelerating...");
         myCar.accelerate();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());   
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Accelerating...");
         myCar.accelerate();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());   
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Braking...");
         myCar.brake();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Braking...");
         myCar.brake();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         myCar.brake();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
         System.out.println("Braking...");
         myCar.brake();
         System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        System.out.println("Current Hyperd Engine: " + ((hyperdEngin)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
+        System.out.println("Current Hyperd Engine: " + ((HyperdEngine)myCar.getEngine()).getCurrentHyperdEngine().getClass().getSimpleName());
 
         // System.out.println("Stopping the car...");
         // myCar.stop();

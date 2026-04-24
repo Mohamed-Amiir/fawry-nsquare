@@ -1,6 +1,6 @@
 package models;
 
-public class gasEngine implements engine {
+public class GasEngine implements Engine {
     private int speed;
         public int getSpeed() {
             return this.speed;

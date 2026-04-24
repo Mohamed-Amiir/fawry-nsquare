@@ -1,20 +1,20 @@
 package models;
 
-public class car {
+public class Car {
 
-    private engine engine;
+    private Engine engine;
 
-    public car(engine engine) {
+    public Car(Engine engine) {
         this.engine = engine;
     }
 
-    public void setEngine(engine engine) {
+    public void setEngine(Engine engine) {
         int currentSpeed = this.engine.getSpeed();
         this.engine = engine;
         this.engine.setSpeed(currentSpeed);
     }
 
-    public engine getEngine() {
+    public Engine getEngine() {
         return this.engine;
     }
 

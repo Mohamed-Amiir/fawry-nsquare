@@ -1,6 +1,6 @@
 package models;
 
-public interface engine {
+public interface Engine {
         public void setSpeed(int speed);
         public int getSpeed();
         public void increaseSpeed();
