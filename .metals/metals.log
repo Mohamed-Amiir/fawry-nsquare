@@ -7259,3 +7259,417 @@ WARNING: Unmatched cancel notification for request id 9338
 2026.04.24 16:46:34 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
 2026.04.24 16:46:34 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
 2026.04.24 16:46:34 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:50:38 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:50:38 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:50:42 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:50:42 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java
+2026.04.24 16:50:42 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:50:45 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\car.java. Using fallback presentation compiler.
+2026.04.24 16:50:45 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\car.java
+2026.04.24 16:50:45 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\car.java. Using fallback presentation compiler.
+2026.04.24 16:51:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:51:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:51:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:51:17 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:51:17 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java
+2026.04.24 16:51:17 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:51:17 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java
+2026.04.24 16:51:17 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:51:18 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:51:26 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:51:26 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java
+2026.04.24 16:51:26 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:51:33 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:51:33 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java
+2026.04.24 16:51:34 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:51:37 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:51:37 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java
+2026.04.24 16:51:37 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+Apr 24, 2026 4:51:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/lenovo/Desktop/My-Github/fawry-nsquare/models/electricEngin.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Apr 24, 2026 4:51:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/lenovo/Desktop/My-Github/fawry-nsquare/models/electricEngin.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+2026.04.24 16:51:41 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:41 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java
+2026.04.24 16:51:41 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:41 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:41 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for c:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for c:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\electricEngin.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:55 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java
+2026.04.24 16:51:55 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:51:55 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:54 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java
+2026.04.24 16:51:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:55 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:51:55 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:01 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:01 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\engine.java
+2026.04.24 16:52:01 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:01 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:01 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:07 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java
+2026.04.24 16:52:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java
+2026.04.24 16:52:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:52:10 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:10 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java
+2026.04.24 16:52:10 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:52:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:17 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:52:17 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java
+2026.04.24 16:52:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:17 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:18 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:18 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java
+2026.04.24 16:52:18 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+Apr 24, 2026 4:52:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/lenovo/Desktop/My-Github/fawry-nsquare/models/gasEngine.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+2026.04.24 16:52:26 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:26 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java
+2026.04.24 16:52:26 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:52:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:35 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java
+2026.04.24 16:52:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:37 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:37 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:37 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\gasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:48 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:52:48 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:48 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:52:48 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:48 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:49 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java
+2026.04.24 16:52:49 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java
+2026.04.24 16:52:48 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:52:49 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:49 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:50 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:52:56 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:52:56 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java
+2026.04.24 16:52:56 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:52:56 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:52:56 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+Apr 24, 2026 4:53:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 362,
+      "uri": "file:///c%3A/Users/lenovo/Desktop/My-Github/fawry-nsquare/models/hyperdEngin.java"
+    },
+    "contentChanges": [
+      {
+        "text": "package models;\r\n\r\npublic class HyperdEngine implements Engine {\r\n    private int speed \u003d 0;\r\n    public GasEngine g;\r\n    public ElectricEngine e;\r\n    public Engine currentEng \u003d e;\r\n\r\n    public HyperdEngine(GasEngine g, ElectricEngine e) {\r\n        this.g \u003d g;\r\n        this.e \u003d e;\r\n    }\r\n    \r\n    public void setEngine(Engine engine) {\r\n        this.currentEng \u003d engine;\r\n    }\r\n    public Engine getCurrentHyperdEngine() {\r\n        return this.currentEng;\r\n    }   \r\n    public int getSpeed() {\r\n        return this.speed;\r\n    }\r\n    public void checkSpeed() {\r\n        if (this.speed \u003c 50) {\r\n            currentEng \u003d e;\r\n        } else {\r\n            currentEng \u003d g;\r\n        }\r\n        currentEng.setSpeed(speed);\r\n    }\r\n    @Override\r\n    public void setSpeed(int speed) {\r\n        this.speed \u003d speed;\r\n        checkSpeed();\r\n    }\r\n    @Override\r\n    public void increaseSpeed() {\r\n        currentEng.increaseSpeed();\r\n        checkSpeed();\r\n    }\r\n    @Override\r\n    public void decreaseSpeed() {\r\n        currentEng.decreaseSpeed();\r\n        checkSpeed();\r\n    }\r\n\r\n\r\n}\r\n"
+      }
+    ]
+  }
+}
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.didChange(org.eclipse.lsp4j.DidChangeTextDocumentParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.nio.file.NoSuchFileException: c:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:96)
+	at java.base/sun.nio.fs.WindowsLinkSupport.getRealPath(WindowsLinkSupport.java:280)
+	at java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:907)
+	at java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:42)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.dealias(ScalametaCommonEnrichments.scala:408)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:151)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:858)
+	at scala.meta.internal.metals.ProjectMetalsLspService.didChange(ProjectMetalsLspService.scala:344)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:490)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2026.04.24 16:53:08 INFO  no build target found for c:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\hyperdEngin.java. Using fallback presentation compiler.
+2026.04.24 16:53:08 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:09 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:53:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:09 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:53:09 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:09 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:09 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:14 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java
+2026.04.24 16:53:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:16 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:53:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:23 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:53:23 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java
+2026.04.24 16:53:23 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:53:27 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:53:27 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java
+2026.04.24 16:53:27 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:53:28 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:53:29 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:53:29 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:53:30 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\Main.java. Using fallback presentation compiler.
+2026.04.24 16:53:42 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:53:42 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java
+2026.04.24 16:53:42 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:53:45 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:53:45 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java
+2026.04.24 16:53:45 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:53:46 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:53:50 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Car.java. Using fallback presentation compiler.
+2026.04.24 16:53:52 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:53:52 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java
+2026.04.24 16:53:52 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:53:52 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:53:52 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:53:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:54 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java
+2026.04.24 16:53:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:54 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:58 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:58 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java
+2026.04.24 16:53:58 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:58 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:53:58 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:02 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:02 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:02 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:02 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:02 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:04 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:05 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:05 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:08 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:09 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:09 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:10 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:10 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:12 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:11 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:12 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:12 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:12 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:12 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:13 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:14 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:15 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:16 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:17 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:17 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:17 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:18 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:19 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:19 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:19 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:19 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:20 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:20 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:21 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:23 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:23 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:23 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:23 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:24 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:24 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:24 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:24 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:24 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:24 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:25 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java
+2026.04.24 16:54:25 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:27 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\HyperdEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:30 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:30 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java
+2026.04.24 16:54:30 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:30 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:30 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\GasEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:32 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:54:32 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java
+2026.04.24 16:54:32 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:54:32 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:54:32 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Engine.java. Using fallback presentation compiler.
+2026.04.24 16:54:33 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:33 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java
+2026.04.24 16:54:33 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:33 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:33 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\ElectricEngine.java. Using fallback presentation compiler.
+2026.04.24 16:54:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
+2026.04.24 16:54:35 WARN  no build target for: C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java
+2026.04.24 16:54:35 INFO  no build target found for C:\Users\lenovo\Desktop\My-Github\fawry-nsquare\models\Factory.java. Using fallback presentation compiler.
