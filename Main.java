@@ -42,7 +42,7 @@ public class Main {
         myCar.brake();
         System.out.println("Current speed: " + myCar.getSpeed());
         System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
-        
+
         System.out.println("*************************************************");  
         System.out.println("Changing Engine.... "  );
         System.out.println("*************************************************");
@@ -114,8 +114,6 @@ public class Main {
         // System.out.println("Current speed: " + myCar.getEngine().getSpeed());
         // System.out.println("Current engine: " + myCar.getEngine().getClass().getSimpleName());
         // System.out.println("Current Hybrid Engine: " + ((HybridEngine)myCar.getEngine()).getCurrentHybridEngine().getClass().getSimpleName());
-
-        // SWITCH ENGINE
 
         carFactory.replaceEngine(myCar, gas);
         System.out.println("Changing Engine.... "  );
