@@ -1,23 +1,19 @@
 package models;
 
 public class GasEngine implements Engine {
-    private int speed;
-        public int getSpeed() {
-            return this.speed;
-        }
+
+
+
+    
     @Override
-    public void setSpeed(int speed) {
-        this.speed = speed;
+    public int increaseSpeed(int speed) {
+        return speed += 1;
+      
     }
 
     @Override
-    public void increaseSpeed() {
-        this.speed++;
-    }
-
-    @Override
-    public void decreaseSpeed() {
-        this.speed--;
+    public int decreaseSpeed(int speed ) {
+        return speed -= 1;
     }
     
 }
